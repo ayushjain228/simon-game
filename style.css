@@ -1,0 +1,43 @@
+body{
+background-color: #1f4068;
+text-align: center;
+}
+#level-title{
+  font-size: 3rem;
+  text-align: center;
+  color:#ffe9c5;
+  padding-top: 2rem;
+  }
+  .container{
+    padding-top: 2rem;
+  text-align: center;
+  display: block;
+  }
+  .btn{
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    margin: 1% 1%;
+    border: 10px solid black;
+    border-radius:70px;
+  }
+  #green{
+    background-color: green;
+    }
+    #red{
+      background-color: red;
+      }
+      #blue{
+        background-color: blue;
+        }
+        #yellow{
+          background-color: yellow;
+          }
+.pressed{
+  background-color: grey;
+  box-shadow: 0 0 20px white;
+}
+.game-over{
+  background-color: red;
+  opacity: 0.8;
+}
